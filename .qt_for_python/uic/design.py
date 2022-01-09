@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'design.ui'
+# Form implementation generated from reading ui file 'e:\DOSYALAR\Projeler\Python\PassGen\design.ui'
 #
 # Created by: PyQt6 UI code generator 6.2.2
 #
@@ -15,8 +15,7 @@ class Ui_Form(object):
         Form.resize(500, 200)
         Form.setMaximumSize(QtCore.QSize(500, 275))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("../password-generator-main/icon.ico"),
-                       QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("e:\\DOSYALAR\\Projeler\\Python\\PassGen\\../password-generator-main/icon.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         Form.setWindowIcon(icon)
         self.gridLayout = QtWidgets.QGridLayout(Form)
         self.gridLayout.setObjectName("gridLayout")
@@ -34,9 +33,7 @@ class Ui_Form(object):
         self.label.setObjectName("label")
         self.gridLayout_2.addWidget(self.label, 5, 0, 1, 1)
         self.length = QtWidgets.QLineEdit(self.frame)
-        self.length.setInputMethodHints(
-            QtCore.Qt.InputMethodHint.ImhFormattedNumbersOnly | QtCore.Qt.InputMethodHint.ImhPreferNumbers)
-        self.length.setValidator(QtGui.QIntValidator())
+        self.length.setInputMethodHints(QtCore.Qt.InputMethodHint.ImhFormattedNumbersOnly|QtCore.Qt.InputMethodHint.ImhPreferNumbers)
         self.length.setMaxLength(5)
         self.length.setObjectName("length")
         self.gridLayout_2.addWidget(self.length, 5, 1, 1, 1)
@@ -45,8 +42,7 @@ class Ui_Form(object):
         self.password.setReadOnly(True)
         self.password.setObjectName("password")
         self.gridLayout_2.addWidget(self.password, 6, 0, 1, 3)
-        spacerItem = QtWidgets.QSpacerItem(
-            20, 33, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
+        spacerItem = QtWidgets.QSpacerItem(20, 33, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
         self.gridLayout_2.addItem(spacerItem, 2, 1, 1, 1)
         self.title = QtWidgets.QLabel(self.frame)
         font = QtGui.QFont()
@@ -70,8 +66,7 @@ class Ui_Form(object):
         self.generate.setAutoDefault(True)
         self.generate.setObjectName("generate")
         self.gridLayout_2.addWidget(self.generate, 5, 2, 1, 1)
-        spacerItem1 = QtWidgets.QSpacerItem(
-            20, 40, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
+        spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
         self.gridLayout_2.addItem(spacerItem1, 12, 1, 1, 1)
         self.gridLayout.addWidget(self.frame, 0, 0, 1, 1)
 
@@ -82,8 +77,8 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "PassGen"))
         self.label.setText(_translate("Form", "Password Length:"))
-        self.password.setPlainText(_translate("Form", ""))
+        self.password.setPlainText(_translate("Form", "asd"))
         self.title.setText(_translate("Form", "Password Generator"))
-        self.info.setText(_translate("Form", ""))
+        self.info.setText(_translate("Form", "TextLabel"))
         self.generate.setText(_translate("Form", "Generate"))
         self.generate.setShortcut(_translate("Form", "Enter"))

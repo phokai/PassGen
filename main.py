@@ -1,5 +1,6 @@
 import sys
 import string
+from PyQt6.QtGui import QIntValidator
 import pyperclip
 from random import *
 from design import *
